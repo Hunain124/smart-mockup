@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo>img {
+    width: 70px;
+    height: 70px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    gap: 20px;
+}
+
+#sign {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+}
+
+#get {
+    background-color: #E65C00;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+}
+
+#sign:hover {
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+#get:hover {
+    background-color: rgba(128, 128, 128, 0.432);
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    list-style: none;
+    font-size: 20px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url(./images/hero.webp);
+    height: 60vh;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 40%;
+    left: 5%;
+}
+
+.content>button {
+    height: 50px;
+    width: 30%;
+
+}
+
+.icon {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ic>img {
+    height: 100px;
+    width: 100px;
+}
+
+.hero2 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 100px;
+}
+
+.left {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.right>img {
+    padding: 10px;
+    height: 60vh;
+    width: 50vw;
+}
+
+.mockup {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.mockup-handle {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.up,
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.up>img {
+    border: 1px solid rgba(128, 128, 128, 0.541);
+    border-radius: 5px;
+}
+
+.down>img {
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    border-radius: 5px;
+}
+
+.mockup-handle>button {
+    background-color: #00A423;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    height: 10%;
+    width: 30%;
+}
+
+.mockup-handle>button:hover {
+    background-color: rgba(128, 128, 128, 0.726);
+    color: black;
+    border: 1px solid rgb(128, 128, 128);
+    transition: .5s;
+}
