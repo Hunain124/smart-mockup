@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body,html{
+    overflow-x: hidden;
+}
 
 .nav {
     display: flex;
@@ -304,4 +307,57 @@ a:hover {
 
 .reserve {
     padding: 20px;
+}
+@media (max-width:375px) {
+
+    html{
+        font-size: 505;
+    }
+
+    .nav>.logo>h2{
+        display: none;
+    }
+    ul{
+        overflow-y:scroll;
+        padding-left: 50px;
+        font-size: 11px;
+    }
+    .hero{
+        background-size: contain;
+        background-repeat:no-repeat;
+        margin-top: 0px;
+        height: 30vh;
+        position: relative;
+        top: 0px;
+    }
+    .content>button{
+        display: none;
+    }
+    .content>p{
+        display: none;
+    }
+    .icon{
+        overflow-x:scroll;
+        
+    }
+    .hero2{
+        flex-wrap: wrap;
+        height: 180vh;
+        gap: 5px;
+    }
+    .hero2>.right>img{
+    margin-left: 60px;
+    width: 60vw;
+    }
+    .mockup-handle{
+        padding: 20px;
+    }
+    .mockup-handle>button {
+        background-color: #00A423;
+        color: white;
+        border-style: none;
+        font-size: 20px;
+        height: 12%;
+        width: 80%;
+    }
 }
